@@ -280,7 +280,6 @@
         </div>
     </section>
     <x-footer/>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
 
 </x-app-layout>

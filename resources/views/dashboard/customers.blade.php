@@ -1,6 +1,15 @@
 <x-dash-layout>
     <x-slot name="title">Customers - Brand</x-slot>
-
+                    <x-slot name="breadcrumb">
+                        <div>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#"><span>Home</span></a></li>
+                                <li class="breadcrumb-item"><a href="#"><span>Examples</span></a></li>
+                                <li class="breadcrumb-item active"><span>Customers</span></li>
+                            </ol>
+                            <h1 class="h2">Customers</h1>
+                        </div>
+                    </x-slot>
 
                     <div>
                         <div class="card">
@@ -281,6 +290,4 @@
                             </div>
                         </div>
                     </div>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/bs-init.js"></script>
 </x-dash-layout>
