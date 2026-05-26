@@ -11,3 +11,5 @@ Route::get('/register', function () { return view('register'); })->name('registe
 Route::get('/dashboard', function () { return view('dashboard.dashboard'); })->name('dashboard');
 Route::get('/dashboard/customers', function () { return view('dashboard.customers'); })->name('customers');
 Route::get('/dashboard/profile', function () { return view('dashboard.profile'); })->name('profile');
+Route::get('/dashboard/projects', function () { return view('dashboard.projects'); })->name('projects');
+Route::get('/dashboard/projects/project', function () { return view('dashboard.project'); })->name('project');
