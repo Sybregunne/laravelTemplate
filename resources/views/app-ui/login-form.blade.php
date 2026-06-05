@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<x-app-layout>
+    <x-slot name="title">Untitled</x-slot>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Geist:400,700&amp;display=swap">
-    <link rel="stylesheet" href="../assets/css/bss-overrides.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/file-storage.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/fitness-tracker.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/product-card.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/social-feed.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/wallet.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/weather-forecast.css">
-    <link rel="stylesheet" href="../assets/css/sales-report.css">
-    <link rel="stylesheet" href="../assets/css/template.css">
-</head>
-
-<body>
     <section class="bg-body-tertiary">
         <div class="container d-flex min-vh-100 justify-content-center align-items-center py-5">
             <div class="card w-100 max-w-400">
@@ -37,8 +19,4 @@
             </div>
         </div>
     </section>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/bs-init.js"></script>
-</body>
-
-</html>
+</x-app-layout>

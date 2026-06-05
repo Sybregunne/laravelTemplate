@@ -327,7 +327,7 @@
                     <div class="card-body">
                         <div class="mb-3"><small class="text-muted d-block">Project Manager</small>
                             <div class="d-flex align-items-center mt-2"><img
-                                    class="object-fit-cover rounded-circle me-2" src="../assets/img/team/avatar1.jpg"
+                                    class="object-fit-cover rounded-circle me-2" src="/assets/img/team/avatar1.jpg"
                                     width="32" height="32" alt="Manager">
                                 <div>
                                     <div class="fw-bold"><span>Sarah Johnson</span></div><small
@@ -365,7 +365,7 @@
                             <div class="px-0 py-2 list-group-item">
                                 <div class="d-flex align-items-center"><img
                                         class="object-fit-cover rounded-circle me-3"
-                                        src="../assets/img/team/avatar1.jpg" width="40" height="40"
+                                        src="/assets/img/team/avatar1.jpg" width="40" height="40"
                                         alt="Team member">
                                     <div class="flex-grow-1">
                                         <div class="fw-bold"><span>Sarah Johnson</span></div><small
@@ -376,7 +376,7 @@
                             <div class="px-0 py-2 list-group-item">
                                 <div class="d-flex align-items-center"><img
                                         class="object-fit-cover rounded-circle me-3"
-                                        src="../assets/img/team/avatar2.jpg" width="40" height="40"
+                                        src="/assets/img/team/avatar2.jpg" width="40" height="40"
                                         alt="Team member">
                                     <div class="flex-grow-1">
                                         <div class="fw-bold"><span>Mike Chen</span></div><small
@@ -387,7 +387,7 @@
                             <div class="px-0 py-2 list-group-item">
                                 <div class="d-flex align-items-center"><img
                                         class="object-fit-cover rounded-circle me-3"
-                                        src="../assets/img/team/avatar3.jpg" width="40" height="40"
+                                        src="/assets/img/team/avatar3.jpg" width="40" height="40"
                                         alt="Team member">
                                     <div class="flex-grow-1">
                                         <div class="fw-bold"><span>Emma Wilson</span></div><small
@@ -398,7 +398,7 @@
                             <div class="px-0 py-2 list-group-item">
                                 <div class="d-flex align-items-center"><img
                                         class="object-fit-cover rounded-circle me-3"
-                                        src="../assets/img/team/avatar4.jpg" width="40" height="40"
+                                        src="/assets/img/team/avatar4.jpg" width="40" height="40"
                                         alt="Team member">
                                     <div class="flex-grow-1">
                                         <div class="fw-bold"><span>David Lee</span></div><small
@@ -409,7 +409,7 @@
                             <div class="px-0 py-2 list-group-item">
                                 <div class="d-flex align-items-center"><img
                                         class="object-fit-cover rounded-circle me-3"
-                                        src="../assets/img/team/avatar5.jpg" width="40" height="40"
+                                        src="/assets/img/team/avatar5.jpg" width="40" height="40"
                                         alt="Team member">
                                     <div class="flex-grow-1">
                                         <div class="fw-bold"><span>Lisa Martinez</span></div><small
@@ -510,5 +510,4 @@
             </div>
         </div>
     </div>
-    <x-dashboard.footer />
 </x-dash-layout>

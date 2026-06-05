@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Notes App - Brand</title>
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Geist:400,700&amp;display=swap">
-    <link rel="stylesheet" href="../assets/css/bss-overrides.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/file-storage.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/fitness-tracker.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/product-card.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/social-feed.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/wallet.css">
-    <link rel="stylesheet" href="../assets/css/app-ui/weather-forecast.css">
-    <link rel="stylesheet" href="../assets/css/sales-report.css">
-    <link rel="stylesheet" href="../assets/css/template.css">
-</head>
-
-<body>
+<x-app-layout>
+    <x-slot name="title">Notes App - Brand</x-slot>
+    
     <section class="bg-body-tertiary">
         <div class="container d-flex min-vh-100 flex-column justify-content-center align-items-center py-5"><a class="text-decoration-none link-body-emphasis d-inline-flex align-items-center mb-4" href="#"><svg class="bi bi-circle-square me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
                     <path d="M0 6a6 6 0 1 1 12 0A6 6 0 0 1 0 6"></path>
@@ -103,8 +85,4 @@
             <div class="small text-center text-muted mt-3"><span> By clicking continue, you agree to our </span><a href="#">Terms of Service</a><span> and </span><a href="#">Privacy Policy</a><span>. </span></div>
         </div>
     </section>
-    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/bs-init.js"></script>
-</body>
-
-</html>
+</x-app-layout>
